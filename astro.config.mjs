@@ -5,10 +5,6 @@ import tailwind from "@astrojs/tailwind"
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-    tailwind({
-      // Disable the default base styles:
-      applyBaseStyles: false,
-    }),
     starlight({
       title: "My Docs",
       customCss: [
@@ -36,6 +32,10 @@ export default defineConfig({
           },
         },
       ],
+    }),
+    tailwind({
+      // Disable the default base styles:
+      applyBaseStyles: true,
     }),
   ],
 })
