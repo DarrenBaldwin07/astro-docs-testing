@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/check': ^0.3.1
   '@astrojs/starlight': ^0.12.0
+  '@astrojs/starlight-tailwind': ^2.0.1
   '@astrojs/tailwind': ^5.0.2
   astro: ^3.2.3
   sharp: ^0.32.5
@@ -11,6 +12,7 @@ specifiers:
 dependencies:
   '@astrojs/check': 0.3.1_typescript@5.2.2
   '@astrojs/starlight': 0.12.0_astro@3.4.3
+  '@astrojs/starlight-tailwind': 2.0.1_hw7mioswr4xbfzn7nkblhrsxcq
   '@astrojs/tailwind': 5.0.2_egiwhx3grshfe36qewwzffvfze
   astro: 3.4.3_typescript@5.2.2
   sharp: 0.32.6
@@ -152,6 +154,18 @@ packages:
     dependencies:
       sitemap: 7.1.1
       zod: 3.22.4
+    dev: false
+
+  /@astrojs/starlight-tailwind/2.0.1_hw7mioswr4xbfzn7nkblhrsxcq:
+    resolution: {integrity: sha512-niMgFcR7NHcsBVy8UAN3F2gqhmoN5v83st5Hu4YzvUL+6SNwjQmIipXppXdN9+iVneRjPr6PLGzDfI+wnjSBWQ==}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.9.0'
+      '@astrojs/tailwind': ^5.0.0
+      tailwindcss: ^3.3.3
+    dependencies:
+      '@astrojs/starlight': 0.12.0_astro@3.4.3
+      '@astrojs/tailwind': 5.0.2_egiwhx3grshfe36qewwzffvfze
+      tailwindcss: 3.3.5
     dev: false
 
   /@astrojs/starlight/0.12.0_astro@3.4.3:
